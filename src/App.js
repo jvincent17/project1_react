@@ -1,4 +1,5 @@
 import './App.css';
+import Labelalamat from './components/labelalamat';
 import Labelnama from './components/labelnama';
 
 
@@ -7,11 +8,9 @@ function App() {
     <div className="App">
 
      <h1>Profile</h1>
-      <Labelnama nama="Budi" />
-      <Labelnama nama="Anton"/>
-      <Labelnama nama="Sinta"/>    
-
-     <p>Alamat : jalan pisang</p>
+     
+      <Labelnama nama="Budi" /> 
+      <Labelalamat alamat="Jala Sawo" />
 
 
     </div>
